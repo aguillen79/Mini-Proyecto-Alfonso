@@ -1,0 +1,142 @@
+body{
+    background-color:hsl(235, 18%, 26%);
+    color: hsl(235, 18%, 26%);
+
+}
+
+.card-container {
+    background-color: white;
+    max-width: 400px;
+    border-radius: 8px;
+    color: hsl(235, 18%, 26%);
+}
+
+.arriba{
+    padding: 0;
+
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.abajo{
+    margin-top: 2rem;
+}
+
+
+.titulo{
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.parrafo{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.lista{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
+
+.btn{
+    background-color: hsl(232,31%,20%);
+    color: white;
+ 
+}
+
+.form-label{
+    font-weight: 700;
+}
+
+
+@media (min-width:768px) {
+    .card-container{
+        max-width: 900px;
+        height: 500px;
+        margin-top: 2rem ;
+    }
+
+    .img-fluid{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+             
+        padding-left: 50px;
+        border-radius: 10px;
+        
+        
+    }
+
+    .btn{
+        margin-right: 2rem;
+        border-radius: 10px;
+       
+    }
+
+    .form-control{
+        margin-right: 2rem;
+        border-radius: 10px;
+
+    }
+
+    .abc{
+        align-items: center;
+        margin-right: 0.5rem;
+        margin-left: 2rem;
+    }
+       
+    }
+
+    .modal-body{
+        background-color: white;
+        height: 350px;
+        border-radius: 16px;
+
+    }
+
+    .boton-modal{
+        background-color: hsl(235, 18%, 26%);
+        color: white;
+        margin-left: 4rem;
+        height: 3rem;
+        width: 20rem;
+        border-radius: 16px;
+
+        
+    }
+
+    h2{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+
+    .Error_Message{
+        margin-left: 7rem;
+        color: red  ;
+        font-weight: 500;
+
+    }
+
+    .hidden{
+
+        display: none;
+    }
+
+    .inputInvalid{
+        background-color: rgba(255, 0, 0, 0.349);
+    }
